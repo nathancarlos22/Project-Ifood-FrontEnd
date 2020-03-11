@@ -1,6 +1,8 @@
 import { Nav, Dropdown } from 'react-bootstrap';
 import React, {Component} from 'react';
-const axios = require('axios');
+import axios from 'axios';
+
+
 export default class navbar extends Component {
 
     constructor(props) {
@@ -12,9 +14,7 @@ export default class navbar extends Component {
             firstName: '',
             lastName:'',
             email: '',
-            password: '',
-            adress_id:'1'
-
+            password: ''
         }
     }
     handleChange(e){
@@ -26,16 +26,27 @@ export default class navbar extends Component {
         var last_name= document.querySelector('#Nome2').value;
         var email = document.querySelector('#DropdownFormEmail1').value;
         var password = document.querySelector('#DropdownFormPassword1').value;
-        var adress_id=1;
-     
-        axios.post('http://localhost:3000/users',{first_name, last_name, email, password, adress_id})
-        .then(() => {
-            alert("sucesso ao cadastrar");
+        
+        axios.post('http://localhost:3000/users',{first_name, last_name, email, password})
+        .then((res) => {
+            console.log(res);
+            setTimeout(function(){ console.log("deubom"); }, 3000);
+
         }).catch((err) => {
             alert("error: " + err.toString());
         });
     }
-    
+    login(){
+        var email = document.querySelector('#exampleDropdownFormEmail1').value;
+        var password = document.querySelector('#exampleDropdownFormPassword1').value;
+        axios.post('http://localhost:3000/login',{email,password}).
+            then(console.log("logado"))//PASSAR UM HRFE PRA ROTA /home
+            .catch((err)=>{
+                alert("error: " + err.toString())
+            });
+    }
+
+
     render () {
         return (
             <Nav className="justify-content" id="mynav">
@@ -64,7 +75,7 @@ export default class navbar extends Component {
                                     </label>
                                 </div>
 
-                                <button type="submit" className="btn btn-primary">Entrar</button>
+                                <button onClick={this.login}  className="btn btn-primary">Entrar</button>
                             </form>
                         </Dropdown.Menu>
                     </div>
@@ -99,7 +110,7 @@ export default class navbar extends Component {
                                         <input type="password" className="form-control" id="DropdownFormPassword1" placeholder="Senha"/>
                                     </div>
                                     
-                                    <button type="submit" onClick={this.cadaUser} className="btn btn-primary">Cadastrar-se</button>
+                                    <button onClick={this.cadaUser} className="btn btn-primary">Cadastrar-se</button>
                                 </form>
                             </Dropdown.Menu>
                     </div>
