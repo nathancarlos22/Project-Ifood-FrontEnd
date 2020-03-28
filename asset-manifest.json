@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.8cef3f95.chunk.css",
-    "main.js": "/static/js/main.3aa34bc3.chunk.js",
-    "main.js.map": "/static/js/main.3aa34bc3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.229f1a63.js",
-    "runtime-main.js.map": "/static/js/runtime-main.229f1a63.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.7cf35f67.chunk.js": "/static/js/2.7cf35f67.chunk.js",
-    "static/js/2.7cf35f67.chunk.js.map": "/static/js/2.7cf35f67.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.56ad2f2494e153eaaea17a7a5efff739.js": "/precache-manifest.56ad2f2494e153eaaea17a7a5efff739.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.8cef3f95.chunk.css.map": "/static/css/main.8cef3f95.chunk.css.map",
-    "static/js/2.7cf35f67.chunk.js.LICENSE.txt": "/static/js/2.7cf35f67.chunk.js.LICENSE.txt",
-    "static/media/loginCadastro.css": "/static/media/back-image.12fbc153.jpg",
-    "static/media/search.png": "/static/media/search.05e6ee2d.png"
+    "main.css": "/Project-Ifood-FrontEnd/static/css/main.5307ea11.chunk.css",
+    "main.js": "/Project-Ifood-FrontEnd/static/js/main.3aa34bc3.chunk.js",
+    "main.js.map": "/Project-Ifood-FrontEnd/static/js/main.3aa34bc3.chunk.js.map",
+    "runtime-main.js": "/Project-Ifood-FrontEnd/static/js/runtime-main.6083dccd.js",
+    "runtime-main.js.map": "/Project-Ifood-FrontEnd/static/js/runtime-main.6083dccd.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/Project-Ifood-FrontEnd/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.7cf35f67.chunk.js": "/Project-Ifood-FrontEnd/static/js/2.7cf35f67.chunk.js",
+    "static/js/2.7cf35f67.chunk.js.map": "/Project-Ifood-FrontEnd/static/js/2.7cf35f67.chunk.js.map",
+    "index.html": "/Project-Ifood-FrontEnd/index.html",
+    "precache-manifest.14c29666ccae7e3b54de9096353c55c4.js": "/Project-Ifood-FrontEnd/precache-manifest.14c29666ccae7e3b54de9096353c55c4.js",
+    "service-worker.js": "/Project-Ifood-FrontEnd/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/Project-Ifood-FrontEnd/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.5307ea11.chunk.css.map": "/Project-Ifood-FrontEnd/static/css/main.5307ea11.chunk.css.map",
+    "static/js/2.7cf35f67.chunk.js.LICENSE.txt": "/Project-Ifood-FrontEnd/static/js/2.7cf35f67.chunk.js.LICENSE.txt",
+    "static/media/loginCadastro.css": "/Project-Ifood-FrontEnd/static/media/back-image.12fbc153.jpg",
+    "static/media/search.png": "/Project-Ifood-FrontEnd/static/media/search.05e6ee2d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.229f1a63.js",
+    "static/js/runtime-main.6083dccd.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.7cf35f67.chunk.js",
-    "static/css/main.8cef3f95.chunk.css",
+    "static/css/main.5307ea11.chunk.css",
     "static/js/main.3aa34bc3.chunk.js"
   ]
 }
