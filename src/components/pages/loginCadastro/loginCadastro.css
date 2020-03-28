@@ -1,0 +1,30 @@
+html,body  {  	
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%; 
+    width: 100%;
+    background-image: url("../../../assets/back-image.jpg");
+    background-position: center;
+    background-color: rgb(224, 44, 44);
+    
+}
+.buttonAndLogin {
+    position: absolute;
+    right: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    
+    margin-right: 100px;
+
+}
+#id-button-cadastro{
+    height: auto;
+    width: 100px;
+    padding: 5px;
+    margin-right: 100px;
+}
+
+.espaco {
+    height: 1000px;
+}
